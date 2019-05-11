@@ -1,0 +1,11 @@
+package com.capgemini.userdata.counter;
+
+import javax.persistence.Id;
+
+public class Counter {
+
+	 @Id 
+	 private String id;
+	 
+	 private int seq;
+}
