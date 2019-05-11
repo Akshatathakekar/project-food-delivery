@@ -1,5 +1,8 @@
 package com.capgemini.profile.service;
 
-public class ProfileService {
+import org.springframework.stereotype.Service;
+
+@Service
+public interface ProfileService {
 
 }

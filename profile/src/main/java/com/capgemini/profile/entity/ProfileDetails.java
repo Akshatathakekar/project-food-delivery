@@ -1,5 +1,8 @@
 package com.capgemini.profile.entity;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
 public class ProfileDetails {
 
 	private int orderId;
